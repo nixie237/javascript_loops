@@ -4,10 +4,11 @@ This repository contains practice exercises for JavaScript loops. You'll impleme
 
 ## Setup Instructions
 
-1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Implement the required functions in `index.js`
-4. Run `npm test` to check your solutions
+1. Fork this repository
+2. Clone the forked repository
+3. Run `npm install` to install dependencies
+4. Implement the required functions in `index.js`
+5. Run `npm test` to check your solutions
 
 ## Functions to Implement
 
