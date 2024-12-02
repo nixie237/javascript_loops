@@ -2,36 +2,22 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 0,
+    "passes": 8,
     "pending": 0,
-    "failures": 8,
-    "start": "2024-12-02T06:05:47.750Z",
-    "end": "2024-12-02T06:05:47.764Z",
-    "duration": 14
+    "failures": 0,
+    "start": "2024-12-02T06:10:06.313Z",
+    "end": "2024-12-02T06:10:06.323Z",
+    "duration": 10
   },
   "tests": [
     {
       "title": "should return the correct sum for positive numbers",
       "fullTitle": "Loop Practice Tests sumToN should return the correct sum for positive numbers",
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:8:25)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 15,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should return 0 for input 0",
@@ -39,22 +25,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:14:25)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 0,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should correctly count vowels in lowercase strings",
@@ -62,22 +34,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:21:36)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 2,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should correctly count vowels in mixed case strings",
@@ -85,22 +43,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:27:36)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 2,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should return 0 for strings with no vowels",
@@ -108,22 +52,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:32:37)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 0,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should reverse arrays of numbers",
@@ -131,53 +61,17 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:39:39)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": [
-            3,
-            2,
-            1
-          ],
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toEqual",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should reverse arrays of strings",
       "fullTitle": "Loop Practice Tests reverseArray should reverse arrays of strings",
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:44:45)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": [
-            "c",
-            "b",
-            "a"
-          ],
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toEqual",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should return empty array for empty input",
@@ -185,48 +79,21 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:48:32)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": [],
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toEqual",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "should return the correct sum for positive numbers",
       "fullTitle": "Loop Practice Tests sumToN should return the correct sum for positive numbers",
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:8:25)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 15,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m15\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should return 0 for input 0",
@@ -234,22 +101,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:14:25)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 0,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should correctly count vowels in lowercase strings",
@@ -257,22 +110,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:21:36)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 2,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should correctly count vowels in mixed case strings",
@@ -280,22 +119,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:27:36)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 2,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should return 0 for strings with no vowels",
@@ -303,22 +128,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:32:37)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": 0,
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toBe",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should reverse arrays of numbers",
@@ -326,53 +137,17 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:39:39)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": [
-            3,
-            2,
-            1
-          ],
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toEqual",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[3, 2, 1]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should reverse arrays of strings",
       "fullTitle": "Loop Practice Tests reverseArray should reverse arrays of strings",
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:44:45)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": [
-            "c",
-            "b",
-            "a"
-          ],
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toEqual",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"c\", \"b\", \"a\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "should return empty array for empty input",
@@ -380,23 +155,8 @@
       "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Context.<anonymous> (file:///home/dennohdev/Development/test/javascript_loops/test/index.test.js:48:32)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-        "matcherResult": {
-          "expected": [],
-          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-          "name": "toEqual",
-          "pass": false
-        },
-        "multiple": [
-          {
-            "matcherResult": "[object Object]",
-            "multiple": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     }
-  ],
-  "passes": []
+  ]
 }
