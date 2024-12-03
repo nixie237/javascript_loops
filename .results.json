@@ -5,16 +5,16 @@
     "passes": 8,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-02T06:10:06.313Z",
-    "end": "2024-12-02T06:10:06.323Z",
-    "duration": 10
+    "start": "2024-12-03T10:24:48.219Z",
+    "end": "2024-12-03T10:24:48.248Z",
+    "duration": 29
   },
   "tests": [
     {
       "title": "should return the correct sum for positive numbers",
       "fullTitle": "Loop Practice Tests sumToN should return the correct sum for positive numbers",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 1,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 2,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -22,8 +22,8 @@
     {
       "title": "should return 0 for input 0",
       "fullTitle": "Loop Practice Tests sumToN should return 0 for input 0",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 0,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -31,7 +31,7 @@
     {
       "title": "should correctly count vowels in lowercase strings",
       "fullTitle": "Loop Practice Tests countVowels should correctly count vowels in lowercase strings",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
@@ -40,7 +40,7 @@
     {
       "title": "should correctly count vowels in mixed case strings",
       "fullTitle": "Loop Practice Tests countVowels should correctly count vowels in mixed case strings",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
@@ -49,7 +49,7 @@
     {
       "title": "should return 0 for strings with no vowels",
       "fullTitle": "Loop Practice Tests countVowels should return 0 for strings with no vowels",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
@@ -58,8 +58,8 @@
     {
       "title": "should reverse arrays of numbers",
       "fullTitle": "Loop Practice Tests reverseArray should reverse arrays of numbers",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 1,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 2,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -67,7 +67,7 @@
     {
       "title": "should reverse arrays of strings",
       "fullTitle": "Loop Practice Tests reverseArray should reverse arrays of strings",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
@@ -76,8 +76,8 @@
     {
       "title": "should return empty array for empty input",
       "fullTitle": "Loop Practice Tests reverseArray should return empty array for empty input",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 0,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -89,8 +89,8 @@
     {
       "title": "should return the correct sum for positive numbers",
       "fullTitle": "Loop Practice Tests sumToN should return the correct sum for positive numbers",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 1,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 2,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -98,8 +98,8 @@
     {
       "title": "should return 0 for input 0",
       "fullTitle": "Loop Practice Tests sumToN should return 0 for input 0",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 0,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -107,7 +107,7 @@
     {
       "title": "should correctly count vowels in lowercase strings",
       "fullTitle": "Loop Practice Tests countVowels should correctly count vowels in lowercase strings",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
@@ -116,7 +116,7 @@
     {
       "title": "should correctly count vowels in mixed case strings",
       "fullTitle": "Loop Practice Tests countVowels should correctly count vowels in mixed case strings",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
@@ -125,7 +125,7 @@
     {
       "title": "should return 0 for strings with no vowels",
       "fullTitle": "Loop Practice Tests countVowels should return 0 for strings with no vowels",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
@@ -134,8 +134,8 @@
     {
       "title": "should reverse arrays of numbers",
       "fullTitle": "Loop Practice Tests reverseArray should reverse arrays of numbers",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 1,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 2,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -143,7 +143,7 @@
     {
       "title": "should reverse arrays of strings",
       "fullTitle": "Loop Practice Tests reverseArray should reverse arrays of strings",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
       "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
@@ -152,8 +152,8 @@
     {
       "title": "should return empty array for empty input",
       "fullTitle": "Loop Practice Tests reverseArray should return empty array for empty input",
-      "file": "/home/dennohdev/Development/test/javascript_loops/test/index.test.js",
-      "duration": 0,
+      "file": "C:\\Users\\User\\OneDrive\\Desktop\\assignments\\javascript_loops\\test\\index.test.js",
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
